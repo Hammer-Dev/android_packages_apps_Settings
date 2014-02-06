@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 TTA Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Halo -->
+    <string name="halo_settings_title">HALO</string>
+    <string name="halo_behavior_title">HALO 행동</string>
+    <string name="halo_hide_title">알림 후 HALO 숨기기</string>
+    <string name="halo_hide_summary">HALO가 알림을 보여준 후 잠시 후에 사라집니다.</string>
+    <string name="halo_reversed_title">HALO 반전</string>
+    <string name="halo_reversed_summary">작업 전환과 이동 제스쳐에 적용시킵니다.</string>
+    <string name="halo_state_title">HALO 정책</string>
+    <string name="halo_state_summary">HALO 알림의 블랙리스트/화이트리스트를 설정합니다.</string>
+    <string name="halo_state_black">블랙리스트</string>
+    <string name="halo_state_white">화이트리스트</string>
+    <string name="halo_pause_title">활성화된 앱을 일시정지 합니다.</string>
+    <string name="halo_pause_summary">HALO로 앱을 여는 동안 하위 앱을 일시정지합니다.</string>
+    <string name="halo_ninja_title">닌자 모드</string>
+    <string name="halo_ninja_summary">HALO 알림이 존재하지 않을 경우 완전히 사라집니다.</string>
+    <string name="halo_notification_msgbox_title">메세지 팝업 활성화</string>
+    <string name="halo_notification_msgbox_summary">알림에 대한 메세지 박스를 보여줍니다.</string>
+    <string name="halo_unlock_ping_title">잠금 해제시 알림</string>
+    <string name="halo_unlock_ping_summary">잠금을 해제했을 때 새로운 알림이 있는 경우 알려줍니다.</string>
+
+    <string name="halo_size_title">HALO 크기</string>
+    <string name="halo_size_summary">HALO의 크기를 설정합니다.</string>
+    <string name="halo_size_miniscule">매우 작음</string>
+    <string name="halo_size_small">작음</string>
+    <string name="halo_size_default">보통 (기본값)</string>
+    <string name="halo_size_large">큼</string>
+    <string name="halo_size_gigantic">매우 큼</string>
+    <string name="halo_size_monster">가장 큼</string>
+
+    <string name="halo_notification_count_title">알림 갯수</string>
+    <string name="halo_notification_count_summary">HALO에 알림 갯수를 보여줍니다.</string>
+    <string name="halo_notification_count_none">없음</string>
+    <string name="halo_notification_count_total">총합</string>
+    <string name="halo_notification_count_individual">각각의 앱</string>
+    <string name="halo_notification_count_both">모두</string>
+
+    <string name="halo_msgbox_animation_title">메세지 박스의 애니메이션</string>
+    <string name="halo_msgbox_animation_summary">HALO에 오는 알림에 대한 박스 애니메이션</string>
+    <string name="halo_msgbox_animation_none">없음</string>
+    <string name="halo_msgbox_animation_flip">뒤집기</string>
+
+    <!-- Label for are-halo-notifications-allowed checkbox in app details [CHAR LIMIT=20] -->
+    <string name="app_halo_label_black">HALO 블랙리스트</string>
+    <string name="app_halo_label_white">HALO 화이트리스트</string>
+</resources>
