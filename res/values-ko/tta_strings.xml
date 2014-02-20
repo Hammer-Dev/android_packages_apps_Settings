@@ -76,7 +76,7 @@
     <string name="unlock_home_unlock_title">홈 버튼으로 잠금해제</string>
     <string name="unlock_home_unlock_summary">홈 버튼을 누를 시 잠금이 해제됩니다.</string>
     <string name="unlock_camera_unlock_title">카메라 버튼으로 잠금해제</string>
-    <string name="unlock_camera_unlock_summary">카메라 버튼을 누를 시 잠금이 해제됩니다.</string>Tmf
+    <string name="unlock_camera_unlock_summary">카메라 버튼을 누를 시 잠금이 해제됩니다.</string>
     <string name="unlock_quick_unlock_control_title">빠른 잠금해제</string>
     <string name="unlock_quick_unlock_control_summary">올바른 비밀번호가 입력됬을 시 바로 잠금해제합니다.</string>
 
