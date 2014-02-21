@@ -100,6 +100,14 @@ public class SecuritySettings extends RestrictedSettingsFragment
     private static final String KEY_SMS_SECURITY_CHECK_PREF = "sms_security_check_limit";
     private static final String SLIDE_LOCK_TIMEOUT_DELAY = "slide_lock_timeout_delay";
     private static final String SLIDE_LOCK_SCREENOFF_DELAY = "slide_lock_screenoff_delay";
+<<<<<<< HEAD
+=======
+    private static final String LOCK_NUMPAD_RANDOM = "lock_numpad_random";
+    // MULTIUSER
+    public static final String ALLOW_MULTIUSER = "allow_multiuser";
+    
+    private static final String BATTERY_AROUND_LOCKSCREEN_RING = "battery_around_lockscreen_ring";
+>>>>>>> 057254e... Settings: Add battery level around unlock ring [2/2]
 
     private PackageManager mPM;
     private DevicePolicyManager mDPM;
@@ -132,6 +140,7 @@ public class SecuritySettings extends RestrictedSettingsFragment
     private ListPreference mSmsSecurityCheck;
     private ListPreference mSlideLockTimeoutDelay;
     private ListPreference mSlideLockScreenOffDelay;
+    private CheckBoxPreference mLockRingBattery;
 
     public SecuritySettings() {
         super(null /* Don't ask for restrictions pin on creation. */);
@@ -264,6 +273,31 @@ public class SecuritySettings extends RestrictedSettingsFragment
             checkPowerInstantLockDependency();
         }
 
+<<<<<<< HEAD
+=======
+        // lockscreen see through
+        mSeeThrough = (CheckBoxPreference) root.findPreference(KEY_SEE_THROUGH);
+        if (mSeeThrough != null) {
+            mSeeThrough.setChecked(Settings.System.getInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_SEE_THROUGH, 0) == 1);
+        }
+
+        mAllowMultiuserPreference = (CheckBoxPreference) root.findPreference(ALLOW_MULTIUSER);
+        mAllowMultiuserPreference.setEnabled(UserHandle.myUserId() == UserHandle.USER_OWNER);
+        mAllowMultiuserPreference.setChecked(Settings.System.getIntForUser(getContentResolver(),
+            Settings.System.ALLOW_MULTIUSER, 0, UserHandle.USER_OWNER) == 1);
+        if (Utils.isTablet(getActivity())) {
+            root.removePreference(mAllowMultiuserPreference);
+        }
+
+        mLockRingBattery = (CheckBoxPreference) root
+                .findPreference(BATTERY_AROUND_LOCKSCREEN_RING);
+        if (mLockRingBattery != null) {
+            mLockRingBattery.setChecked(Settings.System.getInt(getContentResolver(),
+                    Settings.System.BATTERY_AROUND_LOCKSCREEN_RING, 0) == 1);
+        }
+
+>>>>>>> 057254e... Settings: Add battery level around unlock ring [2/2]
         // biometric weak liveliness
         mBiometricWeakLiveliness =
                 (CheckBoxPreference) root.findPreference(KEY_BIOMETRIC_WEAK_LIVELINESS);
@@ -723,6 +757,9 @@ public class SecuritySettings extends RestrictedSettingsFragment
             lockPatternUtils.setVisibleDotsEnabled(isToggled(preference));
         } else if (KEY_POWER_INSTANTLY_LOCKS.equals(key)) {
             lockPatternUtils.setPowerButtonInstantlyLocks(isToggled(preference));
+        } else if (preference == mLockRingBattery) {
+            Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
+                    Settings.System.BATTERY_AROUND_LOCKSCREEN_RING, isToggled(preference) ? 1 : 0);
         } else if (preference == mShowPassword) {
             Settings.System.putInt(getContentResolver(), Settings.System.TEXT_SHOW_PASSWORD,
                     mShowPassword.isChecked() ? 1 : 0);
