@@ -639,7 +639,7 @@
     <string name="accessibility_home_button_answers_call_prerefence_title">홈 버튼으로 전화 수신</string>
 	
 	 <!-- Development shortcut -->
-    <string name="development_shortcut_title">상태 표시즐/최근 앱에서 개발자 기능 활성화</string>
+    <string name="development_shortcut_title">상태 표시줄/최근 앱에서 개발자 기능 활성화</string>
     <string name="development_shortcut_summary">앱 데이터 지우기 및 앱 강제 종료 기능을 상태 표시줄, 최근 앱에서 활성화시킵니다.</string>
 	 <!-- Stylus Icon -->
     <string name="stylus_icon_enabled_title">스타일러스 펜을 사용시 포인터 표시</string>
