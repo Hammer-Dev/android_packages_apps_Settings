@@ -26,8 +26,8 @@
     <item quantity="one" msgid="5295687242294085452">"개발자가 되려면 <xliff:g id="STEP_COUNT">%1$d</xliff:g>단계가 남았습니다."</item>
     <item quantity="other" msgid="6722953419953594148">"개발자가 되려면 <xliff:g id="STEP_COUNT">%1$d</xliff:g>단계가 남았습니다."</item>
   </plurals>
-    <string name="show_dev_on" msgid="1110711554982716293">"개발자가 되셨습니다."</string>
-    <string name="show_dev_already" msgid="2151632240145446227">"이미 개발자입니다."</string>
+    <string name="show_dev_on" msgid="1110711554982716293">"개발자 모드가 활성화되었습니다.."</string>
+    <string name="show_dev_already" msgid="2151632240145446227">"개발자 모드가 이미 활성화되어 있습니다.."</string>
     <string name="header_category_wireless_networks" msgid="4944823405420438623">"무선 및 네트워크"</string>
     <string name="header_category_device" msgid="5781174212691167553">"기기"</string>
     <string name="header_category_personal" msgid="6225932173498802187">"개인 설정"</string>
@@ -923,9 +923,9 @@
     <string name="restore_default_apn" msgid="8178010218751639581">"기본 APN 설정 복원 중"</string>
     <string name="menu_restore" msgid="8260067415075573273">"초기화"</string>
     <string name="restore_default_apn_completed" msgid="2824775307377604897">"기본 APN 설정을 초기화했습니다."</string>
-    <string name="master_clear_title" msgid="5907939616087039756">"공장 초기화"</string>
-    <string name="master_clear_summary" product="tablet" msgid="4036344100254678429">"태블릿의 모든 데이터 지우기"</string>
-    <string name="master_clear_summary" product="default" msgid="4986154238001088492">"휴대전화의 모든 데이터 지우기"</string>
+    <string name="master_clear_title" msgid="5907939616087039756">"기본값 데이터 초기화 (공장 초기화)"</string>
+    <string name="master_clear_summary" product="tablet" msgid="4036344100254678429">"태블릿의 모든 데이터를 지우고 초기화합니다."</string>
+    <string name="master_clear_summary" product="default" msgid="4986154238001088492">"휴대전화의 모든 데이터를 지우고 초기화합니다."</string>
     <string name="master_clear_desc" product="tablet" msgid="8317211882509025841">"공장 초기화하면 태블릿의 "<b>"내부 저장소의 모든 데이터가 삭제됩니다."</b>\n\n<li>"Google 계정"</li>\n<li>"시스템과 앱 데이터 및 설정"</li>\n<li>"다운로드된 앱"</li></string>
     <string name="master_clear_desc" product="default" msgid="9165016501623540228">"공장 초기화하면 휴대전화 "<b>"내부 저장소의 모든 데이터가 삭제됩니다."</b>\n\n<li>"Google 계정"</li>\n<li>"시스템과 앱 데이터 및 설정"</li>\n<li>"다운로드된 앱"</li></string>
     <string name="master_clear_accounts" product="default" msgid="6412857499147999073">\n\n"현재 로그인한 계정:\n"</string>
@@ -1668,7 +1668,7 @@
     <string name="backup_configure_account_title" msgid="3790872965773196615">"백업 계정"</string>
     <string name="backup_configure_account_default_summary" msgid="2436933224764745553">"현재 백업한 데이터가 저장된 계정이 없습니다."</string>
     <string name="auto_restore_title" msgid="5397528966329126506">"자동 복원"</string>
-    <string name="auto_restore_summary" msgid="4235615056371993807">"앱을 다시 설치하면 백업된 설정과 데이터 복원"</string>
+    <string name="auto_restore_summary" msgid="4235615056371993807">"앱을 다시 설치하면 백업된 설정과 데이터를 복원합니다."</string>
     <string name="local_backup_password_title" msgid="3860471654439418822">"데스크톱 백업 비밀번호"</string>
     <string name="local_backup_password_summary_none" msgid="393503434408227110">"데스크톱 전체 백업에 비밀번호가 설정되어 있지 않음"</string>
     <string name="local_backup_password_summary_change" msgid="2731163425081172638">"데스크톱 전체 백업에 대한 비밀번호를 변경하거나 삭제하려면 터치하세요."</string>

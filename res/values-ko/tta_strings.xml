@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  Copyright (C) 2007 TTA Project
+<!--  Copyright (C) 2014 Team Triangles Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -192,7 +192,7 @@
     <string name="lockscreen_target_summary">잠금화면 슬라이드 바로가기를 수정합니다.</string>
     <string name="lockscreen_target_reset">잠금화면 슬라이드 바로가기를 기본값으로 되돌립니다.</string>
     <string name="lockscreen_target_reset_title">기본값으로 초기화</string>
-    <string name="lockscreen_target_reset_message">임의로 지정된 잠금화면 바로가기를 기본값으로 되돌리시겠습니까?</string>
+    <string name="lockscreen_target_reset_message">잠금화면 바로가기를 기본값으로 되돌리시겠습니까?</string>
     <string name="lockscreen_target_empty">없음</string>
     <string name="lockscreen_target_edit_title">아이콘 및 바로가기 수정</string>
     <string name="lockscreen_target_edit_msg">원하는 어플리케이션 및 아이콘을 선택하세요</string>
@@ -261,6 +261,9 @@
     <string name="status_bar_double_tap_to_sleep_title">두번 두드려 화면 꺼짐</string>
 	<string name="increasing_ring_title">벨소리 점점 커짐</string>
 	
+	<!-- Lock screen vibrate settings -->
+    <string name="lockscreen_vibrate_enabled_title">잠금해제시 진동</string>
+    <string name="lockscreen_vibrate_enabled_head">잠금이 해제될 시 진동이 울립니다.</string>
 	 <!-- Profiles settings -->
     <string name="profiles_settings_title">프로필</string>
     <string name="profiles_add">추가</string>
@@ -301,7 +304,7 @@
 
     <!-- Delete confimation messages -->
     <string name="profile_delete_confirm">이 프로필을 지우시겠습니까?</string>
-    <string name="profile_app_delete_confirm">이 앱을 지우시겠습니까??</string>
+    <string name="profile_app_delete_confirm">이 앱을 지우시겠습니까?</string>
     <string name="profile_cannot_delete">활성화된 프로필은 지울 수 없습니다.</string>
 
     <!-- Profile network mode -->
@@ -412,7 +415,7 @@
 
     <!-- Setting checkbox title for root access -->
     <string name="root_access">루트권한 접근</string>
-    <string name="root_access_warning_title">루트권한 접근을 허욯하시겠습니까??</string>
+    <string name="root_access_warning_title">루트권한 접근을 허욯하시겠습니까?</string>
     <string name="root_access_warning_message">루트 권한을 제공하는 것은 매우 위험하며 시스템에 치명적 손상을 줄 수 있습니다!</string>
     <string name="root_access_none">루트권한 비활성화</string>
     <string name="root_access_apps">앱만 허용</string>
@@ -478,7 +481,7 @@
 
     <!-- Privacy Guard -->
     <string name="privacy_guard_switch_label">개인정보 보호</string>
-    <string name="privacy_guard_dlg_title">개인정보 보호를 활성화하시겠습니까??</string>
+    <string name="privacy_guard_dlg_title">개인정보 보호를 활성화하시겠습니까?</string>
     <string name="privacy_guard_dlg_text">개인정보 보호가 활성화될 경우 해당 앱은 전화부나 메시지 등 개인정보에 접근하지 못하게 됩니다. </string>
     <string name="privacy_guard_dlg_system_app_text">개인정보 보호가 내장  앱에 활성화될 경우 해당 앱은 개인정보에 접근하지 못하게 됩니다. 이는 다른 문제를 불러올 수 있습니다.</string>
     <string name="privacy_guard_default_title">기본값으로 활성화</string>
@@ -549,7 +552,7 @@
     <string name="adb_over_network">무선 ADB</string>
     <string name="adb_over_network_summary">TCP/IP 디버깅을 활성화합니다 (와이파이, USB 네트워크 등) 이 설정은 재부팅 후 초기화됩니다.</string>
     <!-- Warning for Adb over Network -->
-    <string name="adb_over_network_warning">경고!\n\n무선 ADB가 활성화될 경우 디바이스가 보안상 위협에 놓이게 되며 GSM 네트워크를 포함한 모든 네트워크로부터 침입받을 수 있습니다. 신뢰된 네트워크에 연결된 경우에만 이 기능을 활성화하십시오.\n\n이 기능은 Triangles에서 권장하지 않는 기능입니다. 정말 활성화하시겠습니까??</string>
+    <string name="adb_over_network_warning">주의하십시오!\n\n무선 ADB가 활성화될 경우 디바이스가 보안상 위협에 놓이게 되며 GSM 네트워크를 포함한 모든 네트워크로부터 침입받을 수 있습니다. 신뢰된 네트워크에 연결된 경우에만 이 기능을 활성화하십시오.\n\n이 기능은 Triangles에서 권장하지 않는 기능입니다. 정말 활성화하시겠습니까?</string>
     <!-- Hostname setting -->
     <string name="device_hostname">ADB 디바이스 호스트네임</string>
 	<!-- Sms security limit -->
@@ -639,10 +642,129 @@
     <string name="development_shortcut_title">상태 표시즐/최근 앱에서 개발자 기능 활성화</string>
     <string name="development_shortcut_summary">앱 데이터 지우기 및 앱 강제 종료 기능을 상태 표시줄, 최근 앱에서 활성화시킵니다.</string>
 	 <!-- Stylus Icon -->
-    <string name="stylus_icon_enabled_title">스타일러스를 사용시 포인터 표시</string>
-    <string name="stylus_icon_enabled_summary">스타일러스로 드래그나 클릭 시 포인터를 표시합니다.</string>
+    <string name="stylus_icon_enabled_title">스타일러스 펜을 사용시 포인터 표시</string>
+    <string name="stylus_icon_enabled_summary">스타일러스 펜으로 드래그나 클릭 시 포인터를 표시합니다.</string>
 	<!-- Whether to display IME switcher notifcation -->
     <string name="ime_switcher_notify">키보드 선택기 표시</string>
     <string name="ime_switcher_notify_summary">키보드 선택기 알림을 표시합니다.</string>
+    <!-- Stylus Gestures -->
+    <string name="gestures_settings_title">스타일러스 펜 동작</string>
+    <string name="category_spen_title">스타일러스 펜 동작</string>
+    <string name="enable_subcat_title">스타일러스 펜</string>
+    <string name="enable_spen_title_head">스타일러스 펜 동작 활성화</string>
+    <string name="enable_spen_summary_head">스타일러스 펜의 버튼을 누른 후 동작을 실행하십시오.</string>
+    <string name="gestures_subcat_title">모션</string>
+    <string name="gestures_left_spen_title_head">왼쪽으로 스와이프</string>
+    <string name="gestures_right_spen_title_head">오른쪽으로 스와이프</string>
+    <string name="gestures_up_spen_title_head">위로 스와이프</string>
+    <string name="gestures_down_spen_title_head">아래로 스와이프</string>
+    <string name="gestures_long_spen_title_head">길게 누름</string>
+    <string name="gestures_double_spen_title_head">두번 두드림</string>
+
+    <!-- Gestures Options -->
+    <string name="gestures_action_empty">동작 없음</string>
+    <string name="gestures_action_home">홈</string>
+    <string name="gestures_action_back">뒤로가기</string>
+    <string name="gestures_action_menu">메뉴</string>
+    <string name="gestures_action_search">검색</string>
+    <string name="gestures_action_recent">최근 실행한 앱</string>
+
+	 <!-- INTERFACE Settings -->
+    <!-- Settings main menu category heading. Interface (Launcher, Themes, System). [CHAR LIMIT=40] -->
+    <string name="header_category_interface">개인 설정</string>
+    <string name="lock_screen_title">잠금 화면</string>
+	 <!-- System Interface settings  -->
+    <string name="system_settings_title">인터페이스</string>
+    <string name="system_interface_title">시스템 인터페이스</string>
+	<!-- Custom widgets -->
+    <string name="lockscreen_custom_widgets_title">사용자 지정 위젯</string>
+	<!-- Navigation Bar -->
+    <string name="navigation_bar_category">네비게이션 바 (소프트키)</string>
+    <string name="navigation_bar_title">레이아웃 및 버튼</string>
+    <string name="navigation_bar_help_text">이 메뉴에서는 네비게이션 바의 버튼 및 레이아웃을 수정할 수 있습니다.\n\n1. 수정을 시작하려면 우측 상단의 잠금 아이콘을 누르세요.\n\n2. 원하는 버튼을 선택해 수정하세요.\n\n3. 버튼 배치를 수정하려면 길게 눌러서 움직이세요.\n\n4. 수정이 완료되셨나요? 우측 상단의 잠금 버튼을 다시 누르면 저장됩니다.\n\n5. 시스템 기본값으로 변경하시려면 우측 상단의 기본값 초기화 버튼을 누르세요.</string>
+    <string name="navigation_bar_tips">\u2022 작업은 한번당 하나만 가능합니다.\n\n\u2022 홈 버튼은 수정되지 않습니다.\n\n\u2022 측면 버튼은 재배열될수 없습니다.</string>
+    <string name="navigation_bar_tips_title">간단한 도움말!</string>
+    <string name="navigation_bar_reset_message">시스템 기본값으로 되돌리시겠습니까? 적용되있던 레이아웃 및 버튼이 모두 초기화됩니다.</string>
+    <string name="navigation_bar_save_message">네비게이션 바 설정이 저장되었습니다.</string>
+    <string name="navigation_bar_reset_toast">네비게이션 바가 시스템 기본값으로 초기화되었습니다.</string>
+    <string name="navigation_bar_menu_editable">수정 모드</string>
+    <string name="navigation_bar_menu_locked">잠금 모드</string>
 	
+	<!-- Navigation ring shortcuts -->
+    <string name="navigation_ring_title">빠른 실행 바로가기</string>
+    <string name="navring_target_reset_message">빠른 실행 바로가기를 시스템 기본값으로 초기화하시겠습니까?</string>
+    <string name="navring_target_reset">빠른 실행 바로가기가 시스템 기본값으로 초기화되었습니다.</string>
+    <string name="navring_action_open_ime_switcher">키보드 선택</string>
+    <string name="navring_action_kill_app">앱 종료</string>
+    <string name="navring_action_none">없음</string>
+    <string name="navring_action_take_screenshot">스크린샷</string>
+    <string name="navring_action_ring_vibrate">소리/진동</string>
+    <string name="navring_action_ring_silent">소리/무음</string>
+    <string name="navring_action_ring_vibrate_silent">소리/진동/무음</string>
+    <string name="navring_action_screen_off">화면 끄기</string>
+    <string name="navring_action_torch">전등 켜기</string>
+    <string name="navring_action_google_now">Google Now</string>
+    <string name="navring_choose_action_title">작업을 선택하십시오.</string>
+   
+    <!-- Quick access ribbon -->
+    <string name="category_quick_access">바로가기 리본</string>
+    <string name="title_quick_access">상태 표시줄에 표시r</string>
+    <string name="title_quick_access_linked">토글과 레이아웃 연결</string>
+    <string name="summary_quick_access_linked">토글과 같은 타일과 레이아웃을 사용합니다.</string>
+    <!-- Safe headset volume restore checkbox -->
+    <string name="safe_headset_volume_title">헤드셋 및 이어폰을 위한 볼륨 자동조정</string>
+	<!-- Sound volumes panel -->
+    <string name="volume_ring_only_description">벨소리</string>
+    <string name="link_volume_ringtones">벨소리와 알림 볼륨을 동일하게 사용</string>
+    <string name="link_volume_mutes">무음 모드시 알림 볼륨 음소거</string>
+    <string name="volume_keys_control_ring_stream">볼륨 키로 벨소리 볼륨 조절</string>
+    <!-- Quiet hours -->
+    <string name="quiet_hours_title">음소거 타임</string>
+    <string name="quiet_hours_summary">기기가 음소거되어 있어야 하는 시간을 설정합니다.</string>
+    <string name="quiet_hours_enabled">음소거 타임 강제 활성화</string>
+    <string name="quiet_hours_ringer">벨소리</string>
+    <string name="quiet_hours_mute">알림 음소거</string>
+    <string name="quiet_hours_system">시스템 소리 음소거</string>
+    <string name="quiet_hours_still">진동 비활성화</string>
+    <string name="quiet_hours_dim">알림 LED 비활성화</string>
+    <string name="quiet_hours_haptic">햅틱 반응 비활성화</string>
+    <string name="quiet_hours_active_from">Active from</string>
+    <string name="quiet_hours_active_to">to</string>
+    <!-- Volume adjustment sound -->
+    <string name="volume_adjust_sounds_enable_title">음량 조절 시 소리</string>
+    <string name="volume_adjust_sounds_enable_summary">음량 조정시에 소리를 냅니다.</string>
+    <!-- Display : Rotation  -->
+    <string name="display_rotation_title">디스플레이 회전</string>
+    <string name="display_rotation_disabled">비활성화됨</string>
+    <string name="display_rotation_unit">도</string>
+    <string name="display_lockscreen_rotation_title">잠금화면 자동회전</string>
+    <string name="display_rotation_category_title">자동회전 모드</string>
+    <string name="display_rotation_0_title">0도</string>
+    <string name="display_rotation_90_title">90도</string>
+    <string name="display_rotation_180_title">180도</string>
+    <string name="display_rotation_270_title">270도</string>
+    <!-- Font size sample text. This needs to be a very short string, as it is shown in
+    multiple font sizes in a limited amount of space. -->
+    <string name="font_size_sample">크기 예시</string>
+	    <!-- Notification light dialogs -->
+    <string name="edit_light_settings">LED 설정 수정</string>
+    <string name="pulse_speed_title">깜빡이는 길이 및 속도</string>
+    <string name="default_time">일반</string>
+    <string name="custom_time">사용자 지정</string>
+    <string name="dialog_test">테스트</string>
+    <string name="dialog_delete_title">삭제</string>
+    <string name="dialog_delete_message">선택된 아이템을 삭제하시겠습니까?</string>
+    <string name="dialog_test_message">테스트를 위해 화면을 끄십시오. 테스트가 완료될 시 테스트 정지를 누르십시오.</string>
+    <string name="dialog_test_button">테스트 정지</string>
+   <!-- About phone screen,  setting option name -->
+    <string name="mod_version">Triangles 버전</string>
+    <string name="mod_version_default">Unknown</string>
+    <!-- About phone screen, build date of ROM -->
+    <string name="build_date">빌드된 날짜</string>
+    <string name="build_date_default" translatable="false">2012-01-01-0000</string>
+    <!-- About device screen, Cpu info -->
+    <string name="cpu_info">CPU 프로세서</string>
+    <!-- About phone screen, Free memory info -->
+    <string name="mem_info">메모리</string>
+    <!-- About phone screen, status item label -->
 </resources>
