@@ -1,4 +1,3 @@
-
 package com.android.settings.triangles;
 
 import android.os.Bundle;
@@ -10,7 +9,7 @@ import android.provider.Settings;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.triangles.SeekBarPreference;
+import com.android.settings.triangles.widgets.SeekBarPreference;
 
 public class Scroll extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 	
