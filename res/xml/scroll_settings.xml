@@ -12,7 +12,8 @@
 	<com.android.settings.triangles.widgets.SeekBarPreference
 	    android:key="custom_fling_velocity"
 	    android:title="@string/custom_fling_velocity_title" />
-
+    </PreferenceCategory>
+    
     <PreferenceCategory
 	android:key="overscroll"
 	android:title="@string/category_overscroll" >
@@ -32,7 +33,5 @@
 	    android:summary="@string/pref_overscroll_weight_summary"
 	    android:entries="@array/entries_overscroll_weight"
 	    android:entryValues="@array/values_overscroll_weight" />
-
     </PreferenceCategory>
-
 </PreferenceScreen>
