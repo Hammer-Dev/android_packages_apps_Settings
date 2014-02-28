@@ -96,10 +96,10 @@
 
     <!-- Overscroll -->
     <header
-	android:id="@+id/overscroll_settings"
+	android:id="@+id/scroll_settings"
 	android:icon="@drawable/ic_settings_weather"
-	android:fragment="com.android.settings.triangles.Overscroll"
-	android:title="@string/overscroll_settings_title" />
+	android:fragment="com.android.settings.triangles.Scroll"
+	android:title="@string/scroll_settings_title" />
 
     <!-- DEVICE -->
     <header android:id="@+id/device_section"

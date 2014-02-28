@@ -2081,8 +2081,8 @@
 
         <activity android:name=".paranoid.Halo" />
 
-	<activity android:name=".triangles.Overscroll"
-	    android:label="@string/overscroll_settings_title" />
+	<activity android:name=".triangles.Scroll"
+	    android:label="@string/scroll_settings_title" />
 
     </application>
 </manifest>

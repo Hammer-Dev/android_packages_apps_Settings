@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+	android:key="scroll"
+	android:title="@string/scroll_settings_title" >
+
+	<com.android.settings.triangles.widgets.SeekBarPreference
+	    android:key="scroll_friction"
+	    android:title="@string/scroll_friction_title" />
+
+	<com.android.settings.triangles.widgets.SeekBarPreference
+	    android:key="custom_fling_velocity"
+	    android:title="@string/custom_fling_velocity_title" />
+
+    <PreferenceCategory
+	android:key="overscroll"
+	android:title="@string/category_overscroll" >
+
+	<ListPreference
+	    android:key="pref_overscroll_effect"
+    	    android:dialogTitle="@string/pref_overscroll_title"
+	    android:title="@string/pref_overscroll_title"
+	    android:summary="@string/pref_overscroll_summary"
+	    android:entries="@array/pref_overscroll_effect_entries"
+	    android:entryValues="@array/pref_overscroll_effect_values" />
+
+	<ListPreference
+	    android:key="pref_overscroll_weight"
+	    android:dialogTitle="@string/pref_overscroll_weight_title"
+	    android:title="@string/pref_overscroll_weight_title"
+	    android:summary="@string/pref_overscroll_weight_summary"
+	    android:entries="@array/entries_overscroll_weight"
+	    android:entryValues="@array/values_overscroll_weight" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
