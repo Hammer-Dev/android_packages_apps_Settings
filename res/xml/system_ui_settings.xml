@@ -59,9 +59,9 @@
             android:title="@string/power_menu_expanded_desktop" >
 
     <PreferenceScreen
-	android:key="others_settings"
-	android:fragment="com.android.settings.triangles.Others"
-	android:title="@string/others_settings_title" />
+	android:key="sounds_settings"
+	android:fragment="com.android.settings.triangles.Sounds"
+	android:title="@string/sounds_settings_title" />
 
         <ListPreference
                 android:key="expanded_desktop"

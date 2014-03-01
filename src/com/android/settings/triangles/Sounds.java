@@ -34,9 +34,9 @@ import com.android.settings.R;
 import com.android.settings.Utils;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class VolumeSteps extends SettingsPreferenceFragment implements
+public class Sounds extends SettingsPreferenceFragment implements
                    OnPreferenceChangeListener {
-    private static final String TAG = "VolumeSteps";
+    private static final String TAG = "Sounds";
 
     private static final String VOLUME_STEPS_MEDIA = "media_volume";
     private static final String VOLUME_STEPS_CALL = "call_volume";

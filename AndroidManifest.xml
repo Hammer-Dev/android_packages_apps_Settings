@@ -2087,11 +2087,8 @@
 	<activity android:name=".triangles.Scroll"
 	    android:label="@string/scroll_settings_title" />
 
-	<activity android:name=".triangles.Others"
-	    android:label="@string/others_settings_title" />
-
-	<activity android:name=".triangles.VolumeSteps"
-	    android:label="@string/volume_steps_title" />
+	<activity android:name=".triangles.Sounds"
+	    android:label="@string/sounds_settings_title" />
 
     </application>
 </manifest>
