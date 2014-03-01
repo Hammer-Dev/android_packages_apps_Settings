@@ -19,7 +19,7 @@ package com.android.settings.triangles;
 import android.os.Bundle;
 
 import com.android.settings.R;
-import com.android.settings.SettingsPreferenceFragment
+import com.android.settings.SettingsPreferenceFragment;
 
 public class Others extends SettingsPreferenceFragment {
 
