@@ -708,7 +708,7 @@
    
     <!-- Quick access ribbon -->
     <string name="category_quick_access">바로가기 리본</string>
-    <string name="title_quick_access">상태 표시줄에 표시r</string>
+    <string name="title_quick_access">상태 표시줄에 표시</string>
     <string name="title_quick_access_linked">토글과 레이아웃 연결</string>
     <string name="summary_quick_access_linked">토글과 같은 타일과 레이아웃을 사용합니다.</string>
     <!-- Safe headset volume restore checkbox -->
