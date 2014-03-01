@@ -100,6 +100,7 @@ public class StatusBar extends SettingsPreferenceFragment implements OnPreferenc
 	    Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(), Settings.System.CLOCK_USE_SECOND, value ? 1 : 0);
 	    return true;
 	}
+	return super.onPreferenceTreeClick(preferenceScreen, preference);
     }
 
     @Override
