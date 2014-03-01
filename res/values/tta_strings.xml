@@ -14,6 +14,11 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Triangles Settings -->
+    <string name="tta_settings_title">Triangles Settings</string>
+    <string name="navbar_settings_title">Navigation Bar</string>
+
     <!-- Halo -->
     <string name="halo_settings_title">Halo</string>
     <string name="halo_enabled_title">Enable Halo</string>
