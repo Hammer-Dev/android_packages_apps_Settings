@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2010 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,7 +24,6 @@
     android:paddingEnd="?android:attr/scrollbarSize"
     android:textAppearance="?android:attr/textAppearanceMedium"
     android:shadowRadius="4"
-    android:shadowColor="?android:attr/colorBackground"
     android:shadowDx="2"
     android:shadowDy="2">
 </com.android.settings.fuelgauge.BatteryHistoryChart>
