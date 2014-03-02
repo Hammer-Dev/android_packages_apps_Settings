@@ -17,14 +17,8 @@ public class Scroll extends SettingsPreferenceFragment implements OnPreferenceCh
 	
 	private static final String OVERSCROLL_WEIGHT_PREF = "pref_overscroll_weight";
 
-	private static final String PREF_SCROLL_FRICTION = "scroll_friction";
-
-	private static final String PREF_CUSTOM_FLING_VELOCITY = "custom_fling_velocity";
-	
 	private ListPreference mOverscrollPref;
 	private ListPreference mOverscrollWeightPref;
-	private SeekBarPreference mScrollFriction;
-	private SeekBarPreference mCustomFlingVelocity;
 	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -43,18 +37,6 @@ public class Scroll extends SettingsPreferenceFragment implements OnPreferenceCh
             mOverscrollWeightPref.setValue(String.valueOf(overscrollWeight));
             mOverscrollWeightPref.setOnPreferenceChangeListener(this);
 
-	    float defaultFriction = Settings.System.getFloat(getActivity().getContentResolver(), Settings.System.SCROLL_FRICTION, 0.015f);
-
-	    mScrollFriction = (SeekBarPreference) findPreference(PREF_SCROLL_FRICTION);
-	    mScrollFriction.setInitValue((int) (defaultFriction * 5000));
-	    mScrollFriction.setOnPreferenceChangeListener(this);
-
-	    int defaultVelocity = Settings.System.getInt(getActivity().getContentResolver(), Settings.System.CUSTOM_FLING_VELOCITY, 8000);
-
-	    mCustomFlingVelocity = (SeekBarPreference) findPreference(PREF_CUSTOM_FLING_VELOCITY);
-	    mCustomFlingVelocity.setInitValue((int) (defaultVelocity / 100));
-	    mCustomFlingVelocity.setOnPreferenceChangeListener(this);
-	
 	}
 	
 	public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -66,14 +48,6 @@ public class Scroll extends SettingsPreferenceFragment implements OnPreferenceCh
 		    int overscrollWeight = Integer.valueOf((String) newValue);
            	    Settings.System.putInt(getContentResolver(), Settings.System.OVERSCROLL_WEIGHT, overscrollWeight);
            	    return true;
-		} else if (preference == mScrollFriction) {
-		    float val = Float.parseFloat((String) newValue);
-		    Settings.System.putFloat(getActivity().getContentResolver(), Settings.System.SCROLL_FRICTION, val / 5000);
-		    return true;
-		} else if (preference == mCustomFlingVelocity) {
-		    int val = Integer.parseInt((String) newValue);
-		    Settings.System.putInt(getActivity().getContentResolver(), Settings.System.CUSTOM_FLING_VELOCITY, val * 100);
-		    return true;
 		}
 		return false;
 	}

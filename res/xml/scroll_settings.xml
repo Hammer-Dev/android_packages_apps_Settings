@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <PreferenceCategory
+    <!--<PreferenceCategory
 	android:key="scroll"
 	android:title="@string/scroll_settings_title" >
 
@@ -16,7 +16,7 @@
     
     <PreferenceCategory
 	android:key="overscroll"
-	android:title="@string/category_overscroll" >
+	android:title="@string/category_overscroll" > -->
 
 	<ListPreference
 	    android:key="pref_overscroll_effect"
@@ -33,5 +33,7 @@
 	    android:summary="@string/pref_overscroll_weight_summary"
 	    android:entries="@array/entries_overscroll_weight"
 	    android:entryValues="@array/values_overscroll_weight" />
-    </PreferenceCategory>
+
+    <!--</PreferenceCategory>-->
+
 </PreferenceScreen>
