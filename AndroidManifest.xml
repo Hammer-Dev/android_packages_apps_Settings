@@ -2084,8 +2084,8 @@
 
         <activity android:name=".paranoid.Halo" />
 
-	<activity android:name=".triangles.Scroll"
-	    android:label="@string/scroll_settings_title" />
+	<!--<activity android:name=".triangles.Scroll"
+	    android:label="@string/scroll_settings_title" /> -->
 
 	<activity android:name=".triangles.Sounds"
 	    android:label="@string/sounds_settings_title" />

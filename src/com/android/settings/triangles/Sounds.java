@@ -48,7 +48,7 @@ public class Sounds extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.volume_steps);
+        addPreferencesFromResource(R.xml.sounds_settings);
 
         PreferenceScreen prefSet = getPreferenceScreen();
 
