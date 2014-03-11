@@ -18,8 +18,8 @@
     <!-- Halo -->
     <string name="halo_settings_title">HALO</string>
     <string name="halo_enabled_title">HALO 활성화</string>
-    <string name="halo_enabled_summaryOn">HALO가 활성화됨</string>
-    <string name="halo_enabled_summaryOff">HALO가 비활성화됨</string>
+    <string name="halo_enabled_summaryOn">HALO가 활성화됨\n멀티윈도우 기능이 해제됩니다.</string>
+    <string name="halo_enabled_summaryOff">HALO가 비활성화됨\n멀티윈도우를 사용할 수 있습니다.</string>
     <string name="halo_behavior_title">HALO 행동</string>
     <string name="halo_hide_title">알림 후 HALO 숨기기</string>
     <string name="halo_hide_summary">HALO가 알림을 보여준 후 잠시 후에 사라집니다.</string>
