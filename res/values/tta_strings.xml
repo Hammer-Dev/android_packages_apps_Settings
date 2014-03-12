@@ -68,7 +68,7 @@
     <string name="app_halo_label_white">Whitelist from HALO</string>
 
     <!-- Scroll -->
-    <!--<string name="scroll_settings_title">Scroll</string>-->
+    <string name="scroll_settings_title">Scroll</string>
     <string name="category_overscroll">Overscroll</string>
 
     <!--<string name="scroll_friction_title">Scroll friction</string>
