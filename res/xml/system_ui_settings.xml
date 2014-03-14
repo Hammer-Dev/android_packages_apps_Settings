@@ -48,11 +48,11 @@
 	android:key="lock_screen_settings"
 	android:fragment="com.android.settings.cyanogenmod.LockscreenInterface"
 	android:title="@string/lock_screen_title" />
-<!--
+
     <PreferenceScreen
 	android:key="scroll_settings"
 	android:fragment="com.android.settings.triangles.Scroll"
-	android:title="@string/scroll_settings_title" /> -->
+	android:title="@string/scroll_settings_title" />
 
     <PreferenceCategory
             android:key="expanded_desktop_category"
