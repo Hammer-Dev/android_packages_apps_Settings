@@ -674,7 +674,7 @@
     <string name="header_category_interface">개인 설정</string>
     <string name="lock_screen_title">잠금 화면</string>
 	 <!-- System Interface settings  -->
-    <string name="system_settings_title">인터페이스</string>
+    <string name="system_settings_title">Triangle Settings</string>
     <string name="system_interface_title">시스템 인터페이스</string>
 	<!-- Custom widgets -->
     <string name="lockscreen_custom_widgets_title">사용자 지정 위젯</string>
