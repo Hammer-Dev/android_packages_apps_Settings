@@ -101,8 +101,6 @@
         <item>7</item>
         <item>9</item>
     </string-array>
-<<<<<<< HEAD
-=======
 
     <string-array name="entries_call_volume_steps" translatable="false">
 	<item>@string/call_steps_default</item>
@@ -132,5 +130,4 @@
 	<item>30</item>
     </string-array>
 
->>>>>>> 01b4013... add volume steps settings
 </resources>

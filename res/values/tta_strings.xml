@@ -93,8 +93,6 @@
     <!-- Second Clock -->
     <string name="clock_use_second">Use second clock</string>
 
-<<<<<<< HEAD
-=======
     <!-- Volume Steps -->
     <string name="volume_steps_title">Volume steps</string>
     <string name="call_volume_steps">Call volume steps</string>
@@ -104,7 +102,4 @@
     <string name="call_steps_default">5 (Default)</string>
     <string name="media_steps_default">15 (Default)</string>
 
-
-
->>>>>>> 01b4013... add volume steps settings
 </resources>
