@@ -70,38 +70,6 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-<<<<<<< HEAD
-=======
-
-    <!-- weather arrays -->
-    <string-array name="weather_interval_entries" translatable="false">
-        <item>@string/off</item>
-        <item>@string/time_1_minute</item>
-        <item>@string/time_5_minutes</item>
-        <item>@string/time_10_minutes</item>
-        <item>@string/time_30_minutes</item>
-        <item>@string/time_45_minutes</item>
-        <item>@string/time_60_minutes</item>
-        <item>@string/time_2_hours</item>
-        <item>@string/time_3_hours</item>
-        <item>@string/time_4_hours</item>
-        <item>@string/time_6_hours</item>
-        <item>@string/time_8_hours</item>
-    </string-array>
-    <string-array name="weather_interval_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>30</item>
-        <item>45</item>
-        <item>60</item>
-        <item>120</item>
-        <item>180</item>
-        <item>240</item>
-        <item>360</item>
-        <item>480</item>
-    </string-array>
 
     <!-- overscroll arrays -->
     <string-array name="pref_overscroll_effect_entries">
@@ -133,6 +101,4 @@
         <item>7</item>
         <item>9</item>
     </string-array>
-
->>>>>>> e4baec7... add overscroll setting
 </resources>

@@ -94,15 +94,6 @@
         android:fragment="com.android.settings.cyanogenmod.SystemUiSettings"
         android:title="@string/system_settings_title" />
 
-<<<<<<< HEAD
-=======
-    <!-- Weather -->
-    <header
-	android:id="@+id/weather_settings"
-	android:icon="@drawable/ic_settings_weather"
-	android:fragment="com.android.settings.triangles.Weather"
-	android:title="@string/weather_settings_title" />
-
     <!-- Overscroll -->
     <header
 	android:id="@+id/overscroll_settings"
@@ -110,7 +101,6 @@
 	android:fragment="com.android.settings.triangles.Overscroll"
 	android:title="@string/overscroll_settings_title" />
 
->>>>>>> e4baec7... add overscroll setting
     <!-- DEVICE -->
     <header android:id="@+id/device_section"
         android:title="@string/header_category_device" />
