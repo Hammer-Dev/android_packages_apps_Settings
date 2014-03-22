@@ -88,12 +88,8 @@
     <string name="overscroll_weight_medium">Medium</string>
     <string name="overscroll_weight_light">Light</string>
     <string name="overscroll_weight_extra_light">Extra Light</string>
-<<<<<<< HEAD
-=======
-
+    
     <!-- Second Clock -->
     <string name="clock_use_second">Use second clock</string>
 
-
->>>>>>> 90ba702... add second clock setting from provision team
 </resources>
