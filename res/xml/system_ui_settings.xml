@@ -54,16 +54,9 @@
 	android:fragment="com.android.settings.triangles.Scroll"
 	android:title="@string/scroll_settings_title" />
 
-<<<<<<< HEAD
     <PreferenceCategory
             android:key="expanded_desktop_category"
             android:title="@string/power_menu_expanded_desktop" >
-=======
-    <PreferenceScreen
-	android:key="weather_settings"
-	android:fragment="com.android.settings.triangles.Weather"
-	android:title="@string/weather_settings_title" />
->>>>>>> cfab746... Update system_ui_settings.xml
 
     <PreferenceScreen
 	android:key="others_settings"
