@@ -20,8 +20,9 @@ import android.os.Bundle;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.cyanogenmod.Navbar;
 
-public class NavBarSettings extends SettingsPreferenceFragment {
+public class NavBarSettings extends SettingsPreferenceFragment ,Navbar {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
