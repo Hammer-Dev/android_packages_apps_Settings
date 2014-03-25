@@ -849,5 +849,8 @@ auf <xliff:g id="new" example="libart.so">%2$s</xliff:g> zu ändern?</string>
     <string name="wifi_ibss_freq_title">Kanal / Frequenz</string>
     <string name="wifi_channel">Kanal</string>
     <string name="wifi_mhz">MHz</string>
+<<<<<<< HEAD
+>>>>>>> 401dfc3... Settings: Update DE translation and move missing AOSP strings
+=======
 >>>>>>> 401dfc3... Settings: Update DE translation and move missing AOSP strings
 </resources>
