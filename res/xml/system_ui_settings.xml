@@ -34,7 +34,7 @@
         android:fragment="com.android.settings.cyanogenmod.NotificationDrawer"
         android:title="@string/notification_drawer_title" />
 
-    <PreferenceScreen
+    <PreferenceCategory
             android:key="expanded_desktop_category"
             android:title="@string/power_menu_expanded_desktop" >
 
@@ -56,7 +56,7 @@
                 android:summary="@string/expanded_desktop_system_bars_visibility_summary"
                 android:defaultValue="false" />
 
-    </PreferenceScreen>
+    </PreferenceCategory>
 
     <!-- Device Specific Touchscreen gestures. Avoid duplicating CMHW functionality, please -->
     <Preference
