@@ -42,12 +42,14 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
     private static final String LOCKSCREEN_GENERAL_CATEGORY = "lockscreen_general_category";
     private static final String LOCKSCREEN_WIDGETS_CATEGORY = "lockscreen_widgets_category";
     private static final String KEY_BATTERY_STATUS = "lockscreen_battery_status";
+    private static final String BATTERY_AROUND_LOCKSCREEN_RING = "battery_around_lockscreen_ring";
     private static final String KEY_LOCKSCREEN_BUTTONS = "lockscreen_buttons";
     private static final String KEY_ENABLE_WIDGETS = "keyguard_enable_widgets";
     private static final String KEY_LOCK_CLOCK = "lock_clock";
     private static final String KEY_ENABLE_CAMERA = "keyguard_enable_camera";
 
     private ListPreference mBatteryStatus;
+    private CheckBoxPreference mLockRingBattery;
     private CheckBoxPreference mEnableKeyguardWidgets;
     private CheckBoxPreference mEnableCameraWidget;
 
@@ -78,6 +80,11 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
         if (mBatteryStatus != null) {
             mBatteryStatus.setOnPreferenceChangeListener(this);
         }
+
+	mLockRingBattery = (CheckBoxPreference) findPreference(BATTERY_AROUND_LOCKSCREEN_RING);
+	if (mLockRingBattery != null) {
+	    mLockRingBattery.setChecked(Settings.System.getInt(getContentResolver(), Settings.System.BATTERY_AROUND_LOCKSCREEN_RING, 0) == 1);
+	}
 
         // Remove lockscreen button actions if device doesn't have hardware keys
         if (!hasButtons()) {
@@ -139,6 +146,8 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
         if (KEY_ENABLE_WIDGETS.equals(key)) {
             mLockUtils.setWidgetsEnabled(mEnableKeyguardWidgets.isChecked());
             return true;
+	} else if (preference == mLockRingBattery) {
+	    Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(), Settings.System.BATTERY_AROUND_LOCKSCREEN_RING, isToggled(preference) ? 1 : 0);
         } else if (KEY_ENABLE_CAMERA.equals(key)) {
             mLockUtils.setCameraEnabled(mEnableCameraWidget.isChecked());
             return true;
