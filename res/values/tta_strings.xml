@@ -95,13 +95,7 @@
     <!-- Second Clock -->
     <string name="clock_use_second">Use second clock</string>
 
-    <!-- Sounds -->
-    <string name="sounds_settings_title">Sounds</string>
-    <string name="call_volume_steps">Call volume steps</string>
-    <string name="media_volume_steps">Media volume steps</string>
-    <string name="volume_steps_summary">Requires rebooting</string>
 
-    <string name="call_steps_default">5 (Default)</string>
-    <string name="media_steps_default">15 (Default)</string>
+
 
 </resources>
