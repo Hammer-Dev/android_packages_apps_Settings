@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2014 The CyanogenMod Project
+     Copyright (C) 2012-2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,31 +14,31 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string-array name="wifi_countrycode_entries">
-        <item>Estaos Xuníos</item>
-        <item>Canadá, Taiwán</item>
-        <item>Alemaña</item>
-        <item>Europa</item>
-        <item>Xapón, Rusia</item>
-        <item>Australia</item>
-        <item>China</item>
-        <item>Corea</item>
-        <item>Turquía</item>
-        <item>Singapur</item>
-        <item>Brasil</item>
+        <item>Amerikai Egyesült Államok</item>
+        <item>Kanada, Tajvan</item>
+        <item>Németország</item>
+        <item>Európa</item>
+        <item>Japán, Oroszország</item>
+        <item>Ausztrália</item>
+        <item>Kína</item>
+        <item>Korea</item>
+        <item>Törökország</item>
+        <item>Szingapúr</item>
+        <item>Brazília</item>
     </string-array>
     <string-array name="profile_entries">
-        <item>Activu</item>
-        <item>Inactivu</item>
-        <item>Nun sobrescribir</item>
+        <item>Be</item>
+        <item>Ki</item>
+        <item>Nincs felülbírálás</item>
     </string-array>
     <string-array name="profile_connection_entries">
-        <item>Deshabilitáu</item>
-        <item>Habilitáu</item>
+        <item>Letiltva</item>
+        <item>Engedélyezve</item>
     </string-array>
     <string-array name="entries_screentimeout_widget">
-        <item>15s | 1m | 5m</item>
-        <item>30s | 2m | 5m</item>
+        <item>15mp | 1p | 5p</item>
+        <item>30mp | 2p | 5p</item>
     </string-array>
 </resources>

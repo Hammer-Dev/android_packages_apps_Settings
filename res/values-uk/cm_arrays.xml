@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2012-2013 The CyanogenMod Project
+<!-- Copyright (C) 2012-2013 The CyanogenMod Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,31 +13,38 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string-array name="wifi_countrycode_entries">
-    <item>Birleşik Devletler</item>
-    <item>Kanada, Tayvan</item>
-    <item>Almanya</item>
-    <item>Avrupa</item>
-    <item>Japonya, Rusya</item>
-    <item>Avustralya</item>
-    <item>Çin</item>
-    <item>Kore</item>
-    <item>Türkiye</item>
-    <item>Singapur</item>
-    <item>Brazilya</item>
-  </string-array>
+
+
   <string-array name="profile_entries">
-    <item>Açık</item>
-    <item>Kapalı</item>
-    <item>Değişiklik yok</item>
+    <item>Увімкнути</item>
+    <item>Вимкнути</item>
+    <item>Залишити без змін</item>
   </string-array>
+
   <string-array name="profile_connection_entries">
-    <item>Devredışı</item>
-    <item>Etkin</item>
+    <item>Вимкнути</item>
+    <item>Увімкнути</item>
   </string-array>
+
   <string-array name="entries_screentimeout_widget">
-    <item>15s | 1dk | 5dk</item>
-    <item>30s | 2dk | 5dk</item>
+    <item>15 сек. | 1 хв. | 5 хв.</item>
+    <item>30 сек. | 2 хв. | 5 хв.</item>
   </string-array>
+
+  <string-array name="wifi_countrycode_entries">
+    <item>США</item>
+    <item>Канада, Тайвань</item>
+    <item>Германія</item>
+    <item>Європа</item>
+    <item>Японія, Росія</item>
+    <item>Австралія</item>
+    <item>Китай</item>
+    <item>Корея</item>
+    <item>Туреччина</item>
+    <item>Сингапур</item>
+    <item>Бразилія</item>
+  </string-array>
+
 </resources>
