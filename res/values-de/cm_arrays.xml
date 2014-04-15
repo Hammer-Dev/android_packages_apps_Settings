@@ -40,5 +40,5 @@
     <string-array name="entries_screentimeout_widget">
         <item>15 Sek. | 1 Min. | 5 Min.</item>
         <item>30 Sek. | 2 Min. | 5 Min.</item>
-    </string-array> 
+    </string-array>
 </resources>
