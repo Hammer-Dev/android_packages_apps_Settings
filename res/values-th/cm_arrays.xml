@@ -14,31 +14,31 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string-array name="wifi_countrycode_entries">
-    <item>Birleşik Devletler</item>
-    <item>Kanada, Tayvan</item>
-    <item>Almanya</item>
-    <item>Avrupa</item>
-    <item>Japonya, Rusya</item>
-    <item>Avustralya</item>
-    <item>Çin</item>
-    <item>Kore</item>
-    <item>Türkiye</item>
-    <item>Singapur</item>
-    <item>Brazilya</item>
+<resources>
+  <string-array name="wifi_countrycode_entries">
+    <item>สหรัฐอเมริกา</item>
+    <item>แคนาดา, ไต้หวัน</item>
+    <item>เยอรมัน</item>
+    <item>ยุโรป</item>
+    <item>ญี่ปุ่น, รัสเซีย</item>
+    <item>ออสเตเรีย</item>
+    <item>จีน</item>
+    <item>เกาหลี</item>
+    <item>ตุรกี</item>
+    <item>สิงคโปร</item>
+    <item>บราซิล</item>
   </string-array>
   <string-array name="profile_entries">
-    <item>Açık</item>
-    <item>Kapalı</item>
-    <item>Değişiklik yok</item>
+    <item>เปิด</item>
+    <item>ปิด</item>
+    <item>ไม่เขียนทับ</item>
   </string-array>
   <string-array name="profile_connection_entries">
-    <item>Devredışı</item>
-    <item>Etkin</item>
+    <item>ปิด</item>
+    <item>เปิด</item>
   </string-array>
   <string-array name="entries_screentimeout_widget">
-    <item>15s | 1dk | 5dk</item>
-    <item>30s | 2dk | 5dk</item>
+    <item>15วินาที | 1นาที | 5นาที</item>
+    <item>30วินาที | 2นาที | 5นาที</item>
   </string-array>
 </resources>
