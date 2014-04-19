@@ -19,6 +19,7 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
     <!-- Halo -->
     <string name="halo_settings_title">HALO (헤일로)</string>
     <string name="halo_enabled_title">HALO 활성화</string>
@@ -41,7 +42,6 @@
     <string name="halo_notification_msgbox_summary">알림에 대한 메세지 박스를 보여줍니다.</string>
     <string name="halo_unlock_ping_title">잠금 해제시 알림</string>
     <string name="halo_unlock_ping_summary">잠금을 해제했을 때 새로운 알림이 있는 경우 알려줍니다.</string>
-
     <string name="halo_size_title">HALO 크기</string>
     <string name="halo_size_summary">HALO의 크기를 설정합니다.</string>
     <string name="halo_size_miniscule">매우 작음</string>
@@ -50,19 +50,16 @@
     <string name="halo_size_large">큼</string>
     <string name="halo_size_gigantic">매우 큼</string>
     <string name="halo_size_monster">가장 큼</string>
-
     <string name="halo_notification_count_title">알림 갯수</string>
     <string name="halo_notification_count_summary">HALO에 알림 갯수를 보여줍니다.</string>
     <string name="halo_notification_count_none">없음</string>
     <string name="halo_notification_count_total">총합</string>
     <string name="halo_notification_count_individual">각각의 앱</string>
     <string name="halo_notification_count_both">모두</string>
-
     <string name="halo_msgbox_animation_title">메세지 박스의 애니메이션</string>
     <string name="halo_msgbox_animation_summary">HALO에 오는 알림에 대한 박스 애니메이션</string>
     <string name="halo_msgbox_animation_none">없음</string>
     <string name="halo_msgbox_animation_flip">뒤집기</string>
-
     <!-- Label for are-halo-notifications-allowed checkbox in app details [CHAR LIMIT=20] -->
     <string name="app_halo_label_black">HALO 블랙리스트</string>
     <string name="app_halo_label_white">HALO 화이트리스트</string>
@@ -70,7 +67,8 @@
     <string name="lockpattern_settings_enable_error_path_title">패턴 오류 표시</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">패턴 점 표시</string>
-	 <!-- 잠금화면 보안 -->
+
+    <!-- 잠금화면 보안 -->
     <string name="screen_security_category">잠금화면 보안</string>
     <string name="screen_security_title">잠금화면</string>
     <string name="screen_security_summary">잠금화면 보안 및 그 외 설정을 수정합니다.</string>
@@ -83,7 +81,6 @@
     <string name="unlock_camera_unlock_summary">카메라 버튼을 누를 시 잠금이 해제됩니다.</string>
     <string name="unlock_quick_unlock_control_title">빠른 잠금해제</string>
     <string name="unlock_quick_unlock_control_summary">올바른 비밀번호가 입력됬을 시 바로 잠금해제합니다.</string>
-
     <!-- 잠금 지연 -->
     <string name="delay_and_timeout_title">잠금 지연</string>
     <string name="slide_lock_delay_title">화면 잠금 지연</string>
@@ -99,19 +96,18 @@
     <string name="slide_lock_delay_5m">5분</string>
     <string name="slide_lock_delay_10m">10분</string>
     <string name="slide_lock_delay_30m">30분</string>
-
     <!-- 잠금화면 위젯 -->
     <string name="lockscreen_widgets_category_title">위젯</string>
     <string name="lockscreen_maximize_widgets_title">위젯 확장</string>
     <string name="lockscreen_maximize_widgets_summary">화면이 켜질 시 자동으로 위젯을 확장합니다.</string>
     <string name="lockscreen_enable_camera_title">카메라 위젯</string>
-	 <!-- 토글  -->
+
+    <!-- 토글  -->
     <string name="quick_settings_panel_title">토글</string>
     <string name="title_static_tiles">고정된 타일</string>
     <string name="tile_picker_title">타일 종류 및 레이아웃</string>
     <string name="tile_picker_summary">표시되는 타일의 레이아웃을 수정합니다.</string>
     <string name="tile_choose_title">타일 선택</string>
-
     <string name="title_tile_airplane">비행기 모드</string>
     <string name="title_tile_battery">배터리 상태</string>
     <string name="title_tile_bluetooth">블루투스</string>
@@ -139,7 +135,6 @@
     <string name="title_tile_volume">음량</string>
     <string name="title_tile_expanded_desktop">화면 확장 모드</string>
     <string name="title_tile_network_adb">무선 ADB</string>
-
     <string name="title_dynamic_tiles">다이나믹 타일</string>
     <string name="dynamic_tiles_note_title">다이나믹 타일에 대해서</string>
     <string name="dynamic_tiles_note_summary">다이나믹 타일은 언제나 표시되는 타일이 아니며, 시스템 이벤트 등 필요할 때만 표시됩니다.</string>
@@ -149,7 +144,6 @@
     <string name="title_dynamic_ime">키보드 변경</string>
     <string name="title_dynamic_usbtether">USB 테더링</string>
     <string name="title_dynamic_wifi">Wi-Fi 표시</string>
-
     <string name="title_general">일반 설정</string>
     <string name="title_quick_pulldown">토글 표시</string>
     <string name="summary_quick_pulldown">상태 표시줄의 %1$s을 밑으로 드래그하면 토글이 표시됩니다 </string>
@@ -160,7 +154,6 @@
     <string name="quick_pulldown_right">오른쪽</string>
     <string name="title_collapse_panel">토글 자동 닫기</string>
     <string name="summary_collapse_panel">토글이 선택될 시 바로 닫힙니다.</string>
-
     <string name="pref_network_mode_title">네트워크 모드</string>
     <string name="pref_screentimeout_mode_title">화면 자동 꺼짐 모드</string>
     <string name="pref_ring_mode_title">소리 모드</string>
@@ -170,7 +163,7 @@
     <string name="cm_sound_mode_sound">소리</string>
     <string name="cm_sound_mode_soundVibrate">소리 &amp; 진동</string>
 
-	 <!-- 알림 표시창  -->
+    <!-- 알림 표시창  -->
     <string name="notification_drawer_title">알림 표시창</string>
     <string name="notification_drawer_collapse_on_dismiss_title">자동 닫힘 설정</string>
     <string name="collapse_on_dismiss_never">비활성화</string>
@@ -180,11 +173,11 @@
     <string name="collapse_on_dismiss_if_empty_summary">마지막 알림을 지운 후 알림 표시창을 닫습니다.</string>
     <string name="collapse_on_dismiss_if_no_clearable_summary">고정 알림을 제외한 마지막 알림을 지운 후 알림 표시창을 닫습니다.</string>
 	
-	 <!--- Lock clock -->
+    <!--- Lock clock -->
     <string name="lock_clock_title">시계 위젯</string>
     <string name="lock_clock_summary">잠금 화면 및 홈 화면의 시계 위젯을 설정합니다.</string>
 	
-	 <!-- Lock screen misc. settings -->
+    <!-- Lock screen misc. settings -->
     <string name="lockscreen_battery_status_title">배터리 상태 표시</string>
     <string name="lockscreen_battery_status_charging">충전 시에만</string>
     <string name="lockscreen_battery_status_alwayson">항상 켜기</string>
@@ -244,7 +237,7 @@
     <string name="lockscreen_buttons_toggle_sound">소리 활성화</string>
     <string name="lockscreen_buttons_sleep">화면 꺼짐</string>
 	
-	<!-- 상태 표시줄 -->
+    <!-- 상태 표시줄 -->
     <string name="status_bar_title">상태 표시줄</string>
     <string name="status_bar_show_clock_title">시계 보이기</string>
     <string name="status_bar_battery_title">배터리 상태 표시 방식</string>
@@ -263,9 +256,9 @@
     <string name="status_bar_notif_count_title">알림 갯수 표시</string>
     <string name="status_bar_notif_count_summary">미확인 알림 갯수를 표시합니다.</string>
     <string name="status_bar_double_tap_to_sleep_title">두번 두드려 화면 꺼짐</string>
-	<string name="increasing_ring_title">벨소리 점점 커짐</string>
+    <string name="increasing_ring_title">벨소리 점점 커짐</string>
 	
-	<!-- Lock screen vibrate settings -->
+    <!-- Lock screen vibrate settings -->
     <string name="lockscreen_vibrate_enabled_title">잠금해제시 진동</string>
     <string name="lockscreen_vibrate_enabled_head">잠금이 해제될 시 진동이 울립니다.</string>
 	 <!-- Profiles settings -->
@@ -393,9 +386,9 @@
     <string name="notification_vibrate_during_calls_title">전화 수신 시 진동</string>
     <string name="notification_vibrate_during_calls_summary">전화 수신 시 진동을 울립니다.</string>
 	
-	<string name="display_lights_settings_title">디스플레이</string>
+    <string name="display_lights_settings_title">디스플레이</string>
 	
-	 <!-- Backlight brightness settings screen -->
+    <!-- Backlight brightness settings screen -->
     <string name="adaptive_backlight_title">지능적 백라이트</string>
     <string name="adaptive_backlight_summary">지능적으로 백라이트를 조절해 배터리 효율을 증가시킵니다.</string>
 
@@ -411,7 +404,7 @@
     <string name="battery_light_medium_color_title">충전중</string>
     <string name="battery_light_full_color_title">충전됨</string>
 	
-	<!-- Advanced reboot options -->
+    <!-- Advanced reboot options -->
     <string name="advanced_reboot_title">재시작 확장 모드</string>
     <string name="advanced_reboot_summary">재시작 모드에서 일반 재시작뿐만 아니라, 리커버리 진입, 다운로드 모드 진입도 제공합니다.</string>
 
@@ -425,7 +418,8 @@
     <string name="root_access_apps">앱만 허용</string>
     <string name="root_access_adb">ADB만 허용</string>
     <string name="root_access_all">앱과 ADB 허용</string>
-	 <!-- Performance settings -->
+   
+    <!-- Performance settings -->
     <string name="performance_settings_title">성능</string>
 
     <!-- Performance Settings : Warning dialog -->
@@ -481,7 +475,7 @@
     <string name="kill_app_longpress_back">뒤로가기로 실행중인 앱 종료</string>
     <string name="kill_app_longpress_back_summary">뒤로가기 버튼을 길게 눌러 실행중인 앱을 종료시킵니다.</string>
 	
-	 <!-- Launches Dev Tools -->
+    <!-- Launches Dev Tools -->
     <string name="development_tools_title">개발자 도구 실행</string>
 
     <!-- Privacy Settings Header item -->
@@ -538,8 +532,9 @@
     <!-- Hardware tunables - Vibrator intensity -->
     <string name="vibrator_intensity_title">진동 강도</string>
     <string name="vibrator_warning">%1$d 이상의 진동 강도는 권장되지 않습니다.</string>
-	 <!-- Category title for headset specific Settings.
-         [CHAR LIMIT=40] -->
+   
+    <!-- Category title for headset specific Settings.
+    [CHAR LIMIT=40] -->
     <string name="headset_category_title">헤드셋</string>
 
     <!-- Launch music player when headset is connected -->
@@ -563,14 +558,14 @@
     <string name="adb_over_network_warning">주의하십시오!\n\n무선 ADB가 활성화될 경우 디바이스가 보안상 위협에 놓이게 되며 GSM 네트워크를 포함한 모든 네트워크로부터 침입받을 수 있습니다. 신뢰된 네트워크에 연결된 경우에만 이 기능을 활성화하십시오.\n\n이 기능은 Triangles에서 권장하지 않는 기능입니다. 정말 활성화하시겠습니까?</string>
     <!-- Hostname setting -->
     <string name="device_hostname">ADB 디바이스 호스트네임</string>
-	<!-- Sms security limit -->
+    <!-- Sms security limit -->
     <string name="sms_security_check_limit_title">SMS 메세지 전송건수 제한</string>
     <string name="sms_security_check_limit_summary">앱은 %d개의 메세지를 30분 내에 보낼수 있습니다.</string>
     <string name="sms_security_check_limit_summary_none">허용 없이 앱들은 메세지를 보낼 수 없습니다.</string>
     <string name="sms_security_check_limit_default">30 (기본값)</string>
     <string name="sms_security_check_limit_none">없음</string>
-	 <!-- Category title for Charging sounds (Power state change) specific Settings.
-         [CHAR LIMIT=40] -->
+    <!-- Category title for Charging sounds (Power state change) specific Settings.
+    [CHAR LIMIT=40] -->
     <string name="power_notifications_category_title">충전 소리</string>
 
     <!-- Sound settings, Charging sounds enable/disable, setting check box label -->
@@ -582,7 +577,7 @@
     <string name="power_notifications_ringtone_title">알림 소리</string>
     <!-- Sound settings, charging sounds label for ringtone == none -->
     <string name="power_notifications_ringtone_silent">조용히</string>
-	<!-- Power menu enable disable -->
+    <!-- Power menu enable disable -->
     <string name="power_menu_title">전원 메뉴</string>
     <string name="power_menu_reboot_title">재부팅</string>
     <string name="power_menu_screenshot_title">스크린샷</string>
@@ -643,16 +638,16 @@
     <string name="backlight_summary_disabled">비활성화됨</string>
     <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">활성화됨</string>
-	 <!-- Title for the accessibility preference to home button to answers a call. [CHAR LIMIT=35] -->
+    <!-- Title for the accessibility preference to home button to answers a call. [CHAR LIMIT=35] -->
     <string name="accessibility_home_button_answers_call_prerefence_title">홈 버튼으로 전화 수신</string>
 	
-	 <!-- Development shortcut -->
+    <!-- Development shortcut -->
     <string name="development_shortcut_title">상태 표시줄/최근 앱에서 개발자 기능 활성화</string>
     <string name="development_shortcut_summary">앱 데이터 지우기 및 앱 강제 종료 기능을 상태 표시줄, 최근 앱에서 활성화시킵니다.</string>
-	 <!-- Stylus Icon -->
+    <!-- Stylus Icon -->
     <string name="stylus_icon_enabled_title">스타일러스 펜을 사용시 포인터 표시</string>
     <string name="stylus_icon_enabled_summary">스타일러스 펜으로 드래그나 클릭 시 포인터를 표시합니다.</string>
-	<!-- Whether to display IME switcher notifcation -->
+    <!-- Whether to display IME switcher notifcation -->
     <string name="ime_switcher_notify">키보드 선택기 표시</string>
     <string name="ime_switcher_notify_summary">키보드 선택기 알림을 표시합니다.</string>
     <!-- Stylus Gestures -->
@@ -677,16 +672,16 @@
     <string name="gestures_action_search">검색</string>
     <string name="gestures_action_recent">최근 실행한 앱</string>
 
-	 <!-- INTERFACE Settings -->
+    <!-- INTERFACE Settings -->
     <!-- Settings main menu category heading. Interface (Launcher, Themes, System). [CHAR LIMIT=40] -->
     <string name="header_category_interface">개인 설정</string>
     <string name="lock_screen_title">잠금 화면</string>
-	 <!-- System Interface settings  -->
+    <!-- System Interface settings  -->
     <string name="system_settings_title">Triangle Settings</string>
     <string name="system_interface_title">시스템 인터페이스</string>
-	<!-- Custom widgets -->
+    <!-- Custom widgets -->
     <string name="lockscreen_custom_widgets_title">사용자 지정 위젯</string>
-	<!-- Navigation Bar -->
+    <!-- Navigation Bar -->
     <string name="navbar_settings_title">네비게이션 바 (소프트키)</string>
     <string name="navigation_bar_category">네비게이션 바 (소프트키)</string>
     <string name="navigation_bar_title">레이아웃 및 버튼</string>
@@ -699,7 +694,7 @@
     <string name="navigation_bar_menu_editable">수정 모드</string>
     <string name="navigation_bar_menu_locked">잠금 모드</string>
 	
-	<!-- Navigation ring shortcuts -->
+    <!-- Navigation ring shortcuts -->
     <string name="navigation_ring_title">빠른 실행 바로가기</string>
     <string name="navring_target_reset_message">빠른 실행 바로가기를 시스템 기본값으로 초기화하시겠습니까?</string>
     <string name="navring_target_reset">빠른 실행 바로가기가 시스템 기본값으로 초기화되었습니다.</string>
@@ -765,7 +760,7 @@
     <string name="dialog_delete_message">선택된 아이템을 삭제하시겠습니까?</string>
     <string name="dialog_test_message">테스트를 위해 화면을 끄십시오. 테스트가 완료될 시 테스트 정지를 누르십시오.</string>
     <string name="dialog_test_button">테스트 정지</string>
-   <!-- About phone screen,  setting option name -->
+    <!-- About phone screen,  setting option name -->
     <string name="mod_version">Triangles 펌웨어 버전</string>
     <string name="mod_version_default">Unknown</string>
     <!-- About phone screen, build date of ROM -->
