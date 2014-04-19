@@ -25,8 +25,8 @@
     <!-- Halo -->
     <string name="halo_settings_title">Halo</string>
     <string name="halo_enabled_title">Enable Halo</string>
-    <string name="halo_enabled_summaryOn">Halo is enabled</string>
-    <string name="halo_enabled_summaryOff">Halo is disabled</string>
+    <string name="halo_enabled_summaryOn">HALO Enabled\nSplit View will be disabled.</string>
+    <string name="halo_enabled_summaryOff">Halo is disabled\nSplit View will be enabled.</string>
     <string name="halo_behavior_title">Halo Behavior</string>
     <string name="halo_hide_title">Hide Halo after activity</string>
     <string name="halo_hide_summary">Halo will appear for incoming tasks and scroll out of sight after a while</string>
@@ -93,7 +93,7 @@
     <string name="overscroll_weight_extra_light">Extra Light</string>
     
     <!-- Second Clock -->
-    <string name="clock_use_second">Use second clock</string>
+    <string name="clock_use_second">Use clock with seconds</string>
 
     <!-- Lockscreen battery ring -->
     <string name="battery_around_lockscreen_ring">Battery around unlock ring</string>
@@ -117,7 +117,7 @@
     <!-- Sound settings screen, setting option name -->
     <string name="volume_steps_notification_title">Notification</string>
     <!-- Sound settings screen, setting option name -->
-    <string name="volume_steps_ring_title">Ringer</string>
+    <string name="volume_steps_ring_title">Bell Ringer</string>
     <!-- Sound settings screen, setting option name -->
     <string name="volume_steps_system_title">System</string>
     <!-- Sound settings screen, setting option name -->
