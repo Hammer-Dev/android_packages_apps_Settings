@@ -89,7 +89,6 @@
         android:icon="@drawable/ic_settings_home"
         android:fragment="com.android.settings.HomeSettings"
         android:title="@string/home_settings" />
-<<<<<<< HEAD
     <!-- Lock screen -->
     <header
         android:id="@+id/lock_screen_settings"
@@ -105,11 +104,7 @@
         android:fragment="com.android.settings.ThemeSettings"
         android:icon="@drawable/prd_ic_themepacks" />
 
-    <!-- System UI -->
-=======
-
     <!-- Triangles Settings -->
->>>>>>> parent of 2c32cbd... Add new themes items to personalization menu
     <header
         android:id="@+id/system_settings"
         android:icon="@drawable/ic_settings_system"
