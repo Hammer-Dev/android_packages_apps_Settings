@@ -80,7 +80,7 @@
     <string name="unlock_camera_unlock_title">카메라 버튼으로 잠금해제</string>
     <string name="unlock_camera_unlock_summary">카메라 버튼을 누를 시 잠금이 해제됩니다.</string>
     <string name="unlock_quick_unlock_control_title">빠른 잠금해제</string>
-    <string name="unlock_quick_unlock_control_summary">올바른 비밀번호가 입력됬을 시 바로 잠금해제합니다.</string>
+    <string name="unlock_quick_unlock_control_summary">올바른 비밀번호가 입력되었을 시 바로 잠금해제합니다.</string>
     <!-- 잠금 지연 -->
     <string name="delay_and_timeout_title">잠금 지연</string>
     <string name="slide_lock_delay_title">화면 잠금 지연</string>
@@ -424,10 +424,7 @@
 
     <!-- Performance Settings : Warning dialog -->
     <string name="performance_settings_warning_title">도움말</string>
-    <string name="performance_settings_warning">시스템에 관련된 중요한 설정들을 변경하려 시도합니다!\n이 기능을 사용해서 일어나는 하드웨어, 소프트웨어적 책임은 Triangles에 없음을 알려드립니다.\n
-\n<b>CPU</b>\nCPU의 속도, 가버너를 수정할수 있습니다.
-\n<b>I/O 스케쥴러</b>\nI/O 스케쥴러를 수정할수 있습니다.
-\n<b>메모리 관련 설정</b>\n시스템 메모리에 관련된 세부 설정을 수정할수 있습니다.
+    <string name="performance_settings_warning">시스템에 관련된 중요한 설정들을 변경하려 시도합니다!\n이 기능을 사용해서 일어나는 하드웨어, 소프트웨어적 책임은 전적으로 사용자 부담입니다.
 </string>
 
     <!-- Performance Settings : Set on boot option -->
@@ -539,7 +536,7 @@
 
     <!-- Launch music player when headset is connected -->
     <string name="headset_connect_player_title">음악 실행</string>
-    <string name="headset_connect_player_summary">헤드셋이 연결됬을 시 기본 음악 앱을 자동으로 실행합니다.</string>
+    <string name="headset_connect_player_summary">헤드셋이 연결되었을 시 기본 음악 앱을 자동으로 실행합니다.</string>
 
     <!--  Other device settings -->
     <string name="more_device_controls_title">더보기\u2026</string>
@@ -804,7 +801,7 @@
     <!-- Sound settings screen, setting option name -->
     <string name="volume_steps_alarm_title">알람 볼륨</string>
     <!-- Sound settings screen, setting option name -->
-    <string name="volume_steps_dtmf_title">DTMF Volume</string>
+    <string name="volume_steps_dtmf_title">DTMF 볼륨</string>
     <!-- Sound settings screen, setting option name -->
     <string name="volume_steps_music_title">미디어 볼륨</string>
     <!-- Sound settings screen, setting option name -->
@@ -814,5 +811,17 @@
     <!-- Sound settings screen, setting option name -->
     <string name="volume_steps_system_title">시스템 볼륨</string>
     <!-- Sound settings screen, setting option name -->
-    <string name="volume_steps_voice_call_title">통화 볼</string>
+    <string name="volume_steps_voice_call_title">통화 볼륨</string>
+    <!-- Second Clock -->
+    <string name="clock_use_second">초 단위 시계 사용</string>
+    <!-- Expanded Desktopl Visibility in lock screen -->
+    <string name="expanded_desktop_system_bars_visibility">잠금 화면에서 확장 데스크톱 비활성화</string>
+    <!-- Lockscreen background -->
+    <string name="lockscreen_background">잠금 화면의 배경화면</string>
+    <string name="lockscreen_background_style_title">잠금 화면의 배경화면</string>
+    <string name="background_default">기본 배경화면</string>
+    <string name="background_wallpaper">사용자 지정 배경화면</string>
+    <string name="background_result_successful">배경화면이 수정되었습니다!</string>
+    <string name="background_result_not_successful">배경화면이 그대로 유지됩니다.</string>
+    <string name="setting_lockscreen_background">배경화면 적용중..</string>
 </resources>
