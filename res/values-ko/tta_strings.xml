@@ -19,7 +19,8 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    
+    <!-- Triangles Settings -->
+    <string name="tta_settings_title">트라이앵글 설정</string>
     <!-- Halo -->
     <string name="halo_settings_title">HALO (헤일로)</string>
     <string name="halo_enabled_title">HALO 활성화</string>
@@ -814,8 +815,9 @@
     <string name="volume_steps_voice_call_title">통화 볼륨</string>
     <!-- Second Clock -->
     <string name="clock_use_second">초 단위 시계 사용</string>
-    <!-- Expanded Desktopl Visibility in lock screen -->
+    <!-- Expanded Desktop Visibility in lock screen -->
     <string name="expanded_desktop_system_bars_visibility">잠금 화면에서 확장 데스크톱 비활성화</string>
+    <string name="expanded_desktop_system_bars_visibility_summary">잠금 화면에서만 예외적으로 확장 데스크톱을 해지합니다.</string>
     <!-- Lockscreen background -->
     <string name="lockscreen_background">잠금 화면의 배경화면</string>
     <string name="lockscreen_background_style_title">잠금 화면의 배경화면</string>
