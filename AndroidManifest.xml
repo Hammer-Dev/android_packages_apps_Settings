@@ -1875,6 +1875,13 @@
                 android:value="com.android.settings.cmstats.AnonymousStats" />
         </activity>
 
+<<<<<<< HEAD
+=======
+        <activity android:name=".cyanogenmod.ChangeLog" />
+
+        <activity android:name=".cyanogenmod.ContributorsCloud" />
+
+>>>>>>> 05ad817... Settings : Add contributors word cloud
         <activity android:name=".cyanogenmod.LockscreenInterface" />
 
         <activity android:name=".notificationlight.NotificationLightSettings" />
