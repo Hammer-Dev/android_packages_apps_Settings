@@ -89,13 +89,6 @@
         android:icon="@drawable/ic_settings_home"
         android:fragment="com.android.settings.HomeSettings"
         android:title="@string/home_settings" />
-    <!-- Lock screen -->
-    <header
-        android:id="@+id/lock_screen_settings"
-        android:fragment="com.android.settings.cyanogenmod.LockscreenInterface"
-        android:title="@string/lock_screen_title"
-        android:icon="@drawable/ic_settings_lockscreen" />
-
 
     <!-- Triangles Settings -->
     <header
