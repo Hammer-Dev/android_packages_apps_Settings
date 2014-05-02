@@ -322,10 +322,11 @@
     <string name="tile_picker_title">Tiles and layout</string>
     <string name="tile_picker_summary">View, select or change the layout of the displayed tiles</string>
     <string name="tile_choose_title">Choose a tile</string>
-
+<<<<<<< HEAD
+=======
     <string name="title_qs_small_icons">Show smaller tiles</string>
     <string name="summary_qs_small_icons">Use smaller tiles to increase the number of columns</string>
-
+>>>>>>> ce36a03... QS: smaller tiles: Fix typo
 
     <string name="title_tile_airplane">Airplane mode</string>
     <string name="title_tile_battery">Battery stats</string>
@@ -1177,6 +1178,8 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="wifi_ibss_freq_title">Channel / Frequency</string>
     <string name="wifi_channel">Channel</string>
     <string name="wifi_mhz">MHz</string>
+<<<<<<< HEAD
+=======
 
     <!-- Voice Wakeup -->
     <string name="voice_wakeup_settings_title">Voice wakeup</string>
@@ -1187,4 +1190,5 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Set Subscription screen: label no sim -->
     <string name="sub_no_sim">No SIM</string>
     <string name="multi_sim_entry_format" translatable="false"><xliff:g id="operator">%1$s</xliff:g>-<xliff:g id="index">%2$d</xliff:g></string>
+>>>>>>> ea72d47... MSIM: Ui fixes, replace Subscriptions with real operator names
 </resources>
