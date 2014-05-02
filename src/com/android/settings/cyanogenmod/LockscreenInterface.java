@@ -2,7 +2,7 @@
  * Copyright (C) 2012-2014 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
+ * you may not use this file except in comp<<<<< HEADliance with the License.
  * You may obtain a copy of the License at
  *
  *      http://www.apache.org/licenses/LICENSE-2.0
@@ -194,18 +194,10 @@ public class LockscreenInterface extends SettingsPreferenceFragment implements
         }
     }
 
-<<<<<<< HEAD
-    private void updateBackgroundPreference() {
-        int lockVal = LockscreenBackgroundUtil.getLockscreenStyle(getActivity());
-        mLockBackground.setValue(Integer.toString(lockVal));
-    }
-
     private boolean isToggled(Preference pref) {
         return ((CheckBoxPreference) pref).isChecked();
     }
 
-=======
->>>>>>> 62de03d... Settings: move keyguard wallpaper to system (2/2)
     @Override
     public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         final String key = preference.getKey();
