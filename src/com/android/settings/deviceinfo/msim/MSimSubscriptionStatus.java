@@ -113,7 +113,6 @@ public class MSimSubscriptionStatus extends PreferenceActivity {
     private int mSub = 0;
     private int mDataState = TelephonyManager.DATA_DISCONNECTED;
     private PhoneStateListener mPhoneStateListener;
-    private boolean mShowLatestAreaInfo;
 
     private static String sUnknown;
 
@@ -209,11 +208,6 @@ public class MSimSubscriptionStatus extends PreferenceActivity {
                 removePreferenceFromScreen(KEY_MEID_NUMBER);
                 removePreferenceFromScreen(KEY_MIN_NUMBER);
                 removePreferenceFromScreen(KEY_ICC_ID);
-
-                // only show area info when SIM country is Brazil
-                if ("br".equals(mTelephonyManager.getSimCountryIso(mSub))) {
-                    mShowLatestAreaInfo = true;
-                }
             }
 
             String rawNumber = mPhone.getLine1Number();  // may be null or empty
@@ -223,10 +217,6 @@ public class MSimSubscriptionStatus extends PreferenceActivity {
             }
             // If formattedNumber is null or empty, it'll display as "Unknown".
             setSummaryText(KEY_PHONE_NUMBER, formattedNumber);
-
-            if (!mShowLatestAreaInfo) {
-                removePreferenceFromScreen(KEY_LATEST_AREA_INFO);
-            }
         }
 
     }
@@ -241,15 +231,13 @@ public class MSimSubscriptionStatus extends PreferenceActivity {
                                      | PhoneStateListener.LISTEN_SIGNAL_STRENGTHS);
             updateSignalStrength();
             updateServiceState();
-            if (mShowLatestAreaInfo) {
-                registerReceiver(mAreaInfoReceiver, new IntentFilter(CB_AREA_INFO_RECEIVED_ACTION),
-                        CB_AREA_INFO_SENDER_PERMISSION, null);
-                // Ask CellBroadcastReceiver to broadcast the latest area info received
-                Intent getLatestIntent = new Intent(GET_LATEST_CB_AREA_INFO_ACTION);
-                getLatestIntent.putExtra(MSimConstants.SUBSCRIPTION_KEY, mSub);
-                sendBroadcastAsUser(getLatestIntent, UserHandle.ALL,
-                        CB_AREA_INFO_SENDER_PERMISSION);
-            }
+            registerReceiver(mAreaInfoReceiver, new IntentFilter(CB_AREA_INFO_RECEIVED_ACTION),
+                    CB_AREA_INFO_SENDER_PERMISSION, null);
+            // Ask CellBroadcastReceiver to broadcast the latest area info received
+            Intent getLatestIntent = new Intent(GET_LATEST_CB_AREA_INFO_ACTION);
+            getLatestIntent.putExtra(MSimConstants.SUBSCRIPTION_KEY, mSub);
+            sendBroadcastAsUser(getLatestIntent, UserHandle.ALL,
+                    CB_AREA_INFO_SENDER_PERMISSION);
 
         }
     }
@@ -260,8 +248,6 @@ public class MSimSubscriptionStatus extends PreferenceActivity {
 
         if (!Utils.isWifiOnly(getApplicationContext())) {
             mTelephonyManager.listen(mPhoneStateListener, PhoneStateListener.LISTEN_NONE);
-        }
-        if (mShowLatestAreaInfo) {
             unregisterReceiver(mAreaInfoReceiver);
         }
     }
