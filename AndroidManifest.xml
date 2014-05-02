@@ -1875,11 +1875,13 @@
                 android:value="com.android.settings.cmstats.AnonymousStats" />
         </activity>
 
-
+<<<<<<< HEAD
         <activity android:name=".cyanogenmod.ChangeLog" />
 
         <activity android:name=".cyanogenmod.ContributorsCloud" />
 
+=======
+>>>>>>> parent of 807c66d... Settings : Add contributors word cloud
         <activity android:name=".cyanogenmod.LockscreenInterface" />
 
         <activity android:name=".notificationlight.NotificationLightSettings" />
