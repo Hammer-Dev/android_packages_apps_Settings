@@ -36,9 +36,7 @@ import com.android.settings.Utils;
 public class SystemUiSettings extends SettingsPreferenceFragment  implements
         Preference.OnPreferenceChangeListener {
     private static final String TAG = "SystemSettings";
-    
-    private static final String KEY_STATUS_BAR_SETTINGS = "status_bar_settings";
-    private static final String KEY_TRIANGLES_EXPERIENCE = "triangles_experience";
+
     private static final String KEY_EXPANDED_DESKTOP = "expanded_desktop";
     private static final String KEY_EXPANDED_DESKTOP_NO_NAVBAR = "expanded_desktop_no_navbar";
     private static final String CATEGORY_EXPANDED_DESKTOP = "expanded_desktop_category";
