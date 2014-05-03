@@ -21,6 +21,12 @@
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Triangles Settings -->
     <string name="tta_settings_title">트라이앵글 설정</string>
+
+    <!-- Inside Triangles Settings -->
+    <string name="status_bar_settings">상태 표시줄</string>
+    <string name="triangles_experience">기능</string>
+    <string name="softkey_settings">네비게이션 바</string>
+
     <!-- Halo -->
     <string name="halo_settings_title">HALO (헤일로)</string>
     <string name="halo_enabled_title">HALO 활성화</string>
