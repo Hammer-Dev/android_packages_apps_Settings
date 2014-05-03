@@ -2137,5 +2137,8 @@
 	<activity android:name=".triangles.VolumeSteps"
 	    android:label="@string/volume_steps_settings_title" />
 
+	<activity android:name=".triangles.LockscreenNotifications"
+	    android:label="@string/lockscreen_notifications" />
+
     </application>
 </manifest>
