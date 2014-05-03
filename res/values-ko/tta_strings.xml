@@ -135,8 +135,6 @@
     <string name="title_tile_quiet_hours">알림 차단</string>
     <string name="title_tile_volume">음량</string>
     <string name="title_tile_expanded_desktop">화면 확장 모드</string>
-    <string name="title_tile_status_bar">상태 표시줄</string>
-    <string name="title_tile_triangles_functions">기능</string>
     <string name="title_tile_network_adb">무선 ADB</string>
     <string name="title_dynamic_tiles">다이나믹 타일</string>
     <string name="dynamic_tiles_note_title">다이나믹 타일에 대해서</string>
